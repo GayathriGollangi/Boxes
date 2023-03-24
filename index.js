@@ -1,8 +1,9 @@
 const Box = (props) => {
   //  Write your code here.
+  const { text, className } = props;
   return (
-    <div className={`${props.className}`}>
-      <p>{props.text}</p>
+    <div className={`box ${className}`}>
+      <p>{text}</p>
     </div>
   );
 };
